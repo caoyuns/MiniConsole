@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="OFF">
+  <appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <!-- <PatternLayout pattern="%5p [%d{yyyy-MM-dd HH:mm:ss,SSS}]:%m  -%c- (%F:%L)  %n"/> -->
+    	<PatternLayout pattern="%5p: %m   (%F:%L)%n"/>	
+    </Console>
+  </appenders>
+  <loggers>
+    <logger name="com.socket.TcpServer" level="DEBUG" additivity="false">
+      <appender-ref ref="Console"/>
+    </logger>
+    <logger name="com.socket.TcpClient" level="DEBUG" additivity="false">
+      <appender-ref ref="Console"/>
+    </logger>
+    <root level="DEBUG">
+      <appender-ref ref="Console"/>
+    </root>
+  </loggers>
+</configuration>
