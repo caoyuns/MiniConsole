@@ -1,4 +1,4 @@
-ÓÃ·¨£º
+ç”¨æ³•ï¼š
 final MiniConsole console = new MiniConsole("MiniConsole Test");
 console.start();
 
@@ -11,7 +11,8 @@ console.setInputHandler(new InputHandler() {
 	}
 });
 
-¿ì½İ¼ü£º
-»Ø³µ   ÊäÈë
-ÉÏÏÂ   ÏÔÊ¾ÀúÊ·ÃüÁî
-Ctrl+L Çå¿ÕÊä³ö
+å¿«æ·é”®ï¼š
+å›è½¦   è¾“å…¥
+ä¸Šä¸‹   æ˜¾ç¤ºå†å²å‘½ä»¤
+Ctrl+L æ¸…ç©ºè¾“å‡º
+
