@@ -1,4 +1,5 @@
-用法：
+﻿用法：
+
 final MiniConsole console = new MiniConsole("MiniConsole Test");
 console.start();
 
