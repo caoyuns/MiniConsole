@@ -1,4 +1,7 @@
 用法：
+
+ss
+
 final MiniConsole console = new MiniConsole("MiniConsole Test");
 console.start();
 
